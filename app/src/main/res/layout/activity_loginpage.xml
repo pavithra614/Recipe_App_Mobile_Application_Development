@@ -50,8 +50,8 @@
         android:text="Welcome Back !"
         android:textColor="@color/white"
         android:textSize="30dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="235dp" />
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="248dp" />
 
     <TextView
         android:id="@+id/textView"

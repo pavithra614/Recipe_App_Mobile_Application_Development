@@ -5,6 +5,185 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registerpage">
+    android:accessibilityLiveRegion="none"
+    android:accessibilityTraversalAfter="@id/imageView7"
+    tools:context=".registerpage"
+    tools:visibility="visible">
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="453dp"
+        android:layout_height="303dp"
+        android:background="#F0F0F0"
+        app:srcCompat="@drawable/loginimage"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-10dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm password"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="547dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="creat password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="227dp"
+        android:layout_height="76dp"
+        android:text="Accept term&condition"
+        android:textColor="@color/btnbgcolor"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@color/btnbgcolor"
+        android:text="Sign up"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="281dp"
+        android:layout_height="39dp"
+        android:text="_______  Or sign in with  ______"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="741dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="780dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="780dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="856dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign in"
+        android:textColor="@color/btnbgcolor"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="856dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="322dp"
+        android:layout_height="60dp"
+        android:text="Create an account"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="true"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let’s help you set up your account, it won’t take long."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/blacklogo"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="-10dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
