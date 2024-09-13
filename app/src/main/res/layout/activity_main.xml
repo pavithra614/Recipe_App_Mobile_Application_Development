@@ -7,13 +7,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="556dp"
+        android:layout_height="1300dp"
+        android:background="#0F141B"
+        android:visibility="visible"
+        app:srcCompat="@drawable/landingbg"
+        tools:layout_editor_absoluteX="-73dp"
+        tools:layout_editor_absoluteY="-395dp" />
+
+    <Button
+        android:id="@+id/letscook"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="325dp"
+        android:layout_height="105dp"
+        android:backgroundTint="#19B4E2"
+
+        android:insetLeft="20dp"
+        android:insetRight="20dp"
+        android:text="LETS COOK !"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:visibility="visible"
+
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="623dp"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="213dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
